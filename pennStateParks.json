@@ -1,0 +1,25 @@
+{
+  "nodes": [
+    {"color": "red", "id": "Pymatuning State Park", "area": "21122"},
+    {"color": "orange", "id": "Bucktail State Park Natural Area", "area": "21039"},
+    {"color": "yellow", "id": "Ohiopyle State Park", "area": "19052"},
+    {"color": "green", "id": "Moraine State Park", "area": "16725"},
+    {"color": "blue", "id": "Hickory Run State Park", "area": "15550"},
+    {"color": "purple", "id": "Laurel Ridge State Park", "area": "13625"},
+    {"color": "magenta", "id": "Ricketts Glen State Park", "area": "13050"},
+    {"color": "chartreuse", "id": "Cook Forest State Park", "area": "8500"},
+    {"color": "blueviolet", "id": "Raccoon Creek State Park", "area": "7572"},
+    {"color": "crimson", "id": "French Creek State Park", "area": "7339"},
+    {"color": "deeppink", "id": "Oil Creek State Park", "area": "6250"},
+    {"color": "aqua", "id": "Prince Gallitzin State Park", "area": "6249"},
+    {"color": "yellowgreen", "id": "Bald Eagle State Park", "area": "5900"},
+    {"color": "turquoise", "id": "Blue Knob State Park", "area": "5874"},
+    {"color": "tomato", "id": "Tobyhanna State Park", "area": "5440"},
+    {"color": "teal", "id": "Nockamixon State Park", "area": "5283"},
+    {"color": "steelblue", "id": "Lehigh Gorge State Park", "area": "4548"}
+  ],
+  "links": [
+    {"source": "Laurel Ridge State Park", "target": "Ohiopyle State Park", "id": "Youghiogheny River"},
+    {"source": "Hickory Run State Park", "target": "Lehigh Gorge State Park", "id": "Lehigh River"}
+  ]
+}

@@ -1,0 +1,133 @@
+body {
+	background-color:#F55D3E;
+}
+
+h1 {
+	font-family: 'Autour One', cursive;
+	color:#76BED0;
+	text-align:center;
+	background-color:#59594A;
+	border-radius:50px;
+	text-transform:uppercase;
+}
+
+a {
+	text-decoration:none;
+	display:block;
+}
+
+div.link {
+	background-color:#818c3c;
+	width:50px;
+	border:solid;
+	border-color:#72601b;
+	border-radius:10px;
+	border-width:5px;
+	text-decoration:none;
+	color:black;
+	font-family: Lucida Grande, serif;
+	color:#593a0e;
+	padding:5px;
+	margin:10px;
+	display:block;
+}
+
+div.link:visited {
+	color:#59594A;
+}
+
+div.link:active {
+	color:#59594A;
+}
+
+div.link:hover {
+	border-color:white;
+	text-transform:uppercase;
+}
+
+line:hover {
+  stroke: red;
+}
+
+svg.maindisp {
+  background-color: #818c3c;
+  padding: 10px;
+  margin-bottom: 0px;
+  display: block;
+}
+
+.node {
+  stroke: #593a0e;
+  stroke-width: 3px;
+}
+
+div.tooltip {	
+    position: absolute;			
+    text-align: center;								
+    height: 28px;
+    width:100px;
+    padding: 2px;				
+    font: 12px sans-serif;		
+    background: #72601b;	
+    border: 0px;		
+    border-radius: 8px;			
+    pointer-events: none;		
+    color:white;
+}
+
+circle:hover{
+  stroke-width: 5px;
+}
+
+.link {
+  stroke: #593a0e;
+  stroke-width: 5px;
+}
+
+div.inspect {
+  background-color: #72601b;
+  font-family: Lucida Grande, serif;
+  color: white;
+  text-align: center;
+  width: 500px;
+  padding: 10px;
+  border-radius: 20px;
+  border-bottom-left-radius: 0px;
+  border-bottom-right-radius: 0px;
+}
+
+div.bottomcap {
+  background-color: #72601b;
+  font-family: Lucida Grande, serif;
+  font-size: 8pt;
+  color: white;
+  text-align: center;
+  width: 500px;
+  padding: 10px;
+  border-radius: 20px;
+  border-top-left-radius: 0px;
+  border-top-right-radius: 0px;
+  margin-top: 0px;
+}
+
+p.category {
+  font-size: 14pt;
+  background-color: #818c3c;
+  margin-top: 5px;
+  margin-bottom: 5px;
+  border-radius: 5px;
+  color: #593a0e;
+}
+
+.tooltip {
+  position: absolute;
+  text-align: center;
+  width: 60px;
+  height: 28px;
+  padding: 2px;
+  font: 12px sans-serif;
+  background: lightsteelblue;
+  border: 0px;
+  border-radius: 8px;
+  pointer-events: none;
+}
